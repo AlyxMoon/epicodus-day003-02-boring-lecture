@@ -1,14 +1,40 @@
+h1 {
+  font-size: 60px;
+  text-align: center;
+
+  border-bottom: 1px solid navy;
+}
+
 h2.intro {
   color: beige;
   background-color: brown;
   font-size: 35px;
+
+  padding: 10px;
 }
+
+h2.intro::selection {
+  background-color: yellow;
+  color: black;
+}
+
 p.intro {
-  text-decoration:underline;
-  text-decoration: bold;
-  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
 }
 img.intro {
+  display: block;
   border-radius: 10px;
-  
+
+  margin: 0 auto;
+}
+
+section.intro {
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
 }
