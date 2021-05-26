@@ -1,0 +1,14 @@
+h2.intro {
+  color: beige;
+  background-color: brown;
+  font-size: 35px;
+}
+p.intro {
+  text-decoration:underline;
+  text-decoration: bold;
+  text-transform: capitalize;
+}
+img.intro {
+  border-radius: 10px;
+  
+}
